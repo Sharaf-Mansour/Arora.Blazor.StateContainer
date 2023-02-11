@@ -11,7 +11,7 @@ dotnet add package Arora.Blazor.StateContainer
 ### Top-level statements
 If you're using C# 9 or later with top-level statements, you can use the Arora.Blazor.StateContainer library as follows:
 
-```csharp
+```cs
 using Arora.Blazor.StateContainer;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +25,7 @@ app.Run();
 ### Old-style program and Startup
 If you're using an older version of C# or the Program.cs and Startup.cs files in your project, you can use the Arora.Blazor.StateContainer library as follows:
 
-```csharp
+```cs
 using Arora.Blazor.StateContainer;
 
 public class Startup
@@ -56,15 +56,15 @@ public class Program
 ```cs
 using Arora.Blazor.StateContainer;
 ```
-```razor
+```cs
 @using Arora.Blazor.StteContainer;
 ```
 2. In your Blazor component, use the `@inject` directive to inject the `StateContainer` instance:
-```razor
+```cs
 @inject StateContainer State
 ```
 3. Use the StateContainer instance in your component to update the state:
-```razor
+```cs
 <p>Count: @count</p>
 <button @onclick="IncrementCount">Increment</button>
 

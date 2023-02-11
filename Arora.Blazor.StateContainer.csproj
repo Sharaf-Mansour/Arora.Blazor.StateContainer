@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0;net462</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+    <PackageId>Arora.Blazor.StateContainer</PackageId>
+    <Authors>Sharaf Mansour</Authors>
+    <Company>Arora</Company>
+    <Product>Blazor.StateContainer</Product>
+    <Description>Arora.Blazor.StateContainer is a .NET library that provides a simple state container implementation for Blazor applications. The library defines a StateContainer class that can be used to store and manage application state, and an extension method AddStateContainer() that can be used to register the StateContainer with the dependency injection container.</Description>
+    <PackageProjectUrl>https://github.com/Sharaf-Mansour/Arora.Blazor.StateContainer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sharaf-Mansour/Arora.Blazor.StateContainer</RepositoryUrl>
+    <PackageTags>
+      blazor, state-management, csharp, dotnet, dotnet-standard-2.1, webassembly, server-side, dependency-injection, services, scoped-services
+    </PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <SignAssembly>False</SignAssembly>
+    <RepositoryType>GitHub</RepositoryType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Arora.Blazor.StateContainer</Title>
+  </PropertyGroup>
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
