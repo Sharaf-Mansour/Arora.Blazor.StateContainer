@@ -57,7 +57,7 @@ public class Program
 using Arora.Blazor.StateContainer;
 ```
 ```cs
-@using Arora.Blazor.StteContainer;
+@using Arora.Blazor.StateContainer;
 ```
 2. In your Blazor component, use the `@inject` directive to inject the `StateContainer` instance:
 ```cs
