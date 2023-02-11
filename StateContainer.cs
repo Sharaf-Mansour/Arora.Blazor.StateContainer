@@ -8,5 +8,6 @@ public class StateContainer
 }
 public static class ServiceCollectionExtensions
 {
-    public static IServiceCollection AddStateContainer(this IServiceCollection services)  => services.AddScoped<StateContainer>();
+    public static IServiceCollection AddStateContainer(this IServiceCollection services) =>
+        services.AddScoped<StateContainer>();
 }
