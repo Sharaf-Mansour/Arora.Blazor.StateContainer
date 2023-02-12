@@ -4,7 +4,7 @@ namespace Arora.Blazor.StateContainer;
 public class StateContainer
 {
     public event Action? OnChange;
-    private void NotifyStateChanged() => OnChange?.Invoke();
+    public void NotifyStateChanged() => OnChange?.Invoke();
 }
 public static class ServiceCollectionExtensions
 {
