@@ -14,8 +14,8 @@
       blazor, state-management, csharp, dotnet, dotnet-standard-2.1, webassembly, server-side, dependency-injection, services, scoped-services
     </PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.0</Version>
-    <FileVersion>1.0.0</FileVersion>
+    <Version>1.0.1</Version>
+    <FileVersion>1.0.1</FileVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <SignAssembly>False</SignAssembly>
